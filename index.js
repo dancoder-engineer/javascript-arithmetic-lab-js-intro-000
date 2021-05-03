@@ -10,7 +10,7 @@ function decrement(n) {
   n--; 
   return n; }
   
-function makeInt(string) { return parseInt(string); }
+function makeInt(string) { return parseInt(string,10); }
 function preserveDecimal(string) { return parseFloat(string); }  
 
 console.log(parseInt(0))
