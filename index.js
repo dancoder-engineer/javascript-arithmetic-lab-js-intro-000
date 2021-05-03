@@ -11,6 +11,4 @@ function decrement(n) {
   return n; }
   
 function makeInt(string) { return parseInt(string); }
-  
-
-console.log(decrement(5))
+function preserveDecimal(string) { return parseFloat(string); }  
