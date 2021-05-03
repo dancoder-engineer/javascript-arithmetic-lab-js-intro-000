@@ -9,5 +9,8 @@ function increment(n) {
 function decrement(n) { 
   n--; 
   return n; }
+  
+function makeInt(string) { return parseInt(string); }
+  
 
 console.log(decrement(5))
